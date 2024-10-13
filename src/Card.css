@@ -1,0 +1,20 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 20px; /* Space between the cards */
+    padding: 20px; /* Padding around the container */
+  }
+  
+  .card {
+    border: 1px solid #ccc; /* Border around each card */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside each card */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    background-color: #fff; /* White background */
+    transition: transform 0.2s; /* Smooth scale effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+  }
+  
